@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+ Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+--><extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
+        	
+    
+    <extension abstractclassprefix="Generated" classprefix="B2bCore" managername="B2bCoreManager" managersuperclass="de.hybris.platform.jalo.extension.Extension" name="b2bcore">
+                		
+        
+        <!-- you should add all required extensions to this list, except platform 
+			extensions which are automatically required -->
+                		
+        
+        <requires-extension name="acceleratorcms"/>
+                		
+        
+        <requires-extension name="solrserver"/>
+                		
+        
+        <coremodule generated="true" manager="com.b2b.core.jalo.B2bCoreManager" packageroot="com.b2b.core"/>
+                		
+        
+        		
+	
+    
+    </extension>
+        
+
+</extensioninfo>
